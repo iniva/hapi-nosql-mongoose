@@ -14,7 +14,7 @@ yarn add hapi-nosql-mongoose mongoose
 ## Register as Hapi Plugin
 
 ```javascript
-const Mongoose = require('hapi-nosql-mongoose);
+const Mongoose = require('hapi-nosql-mongoose');
 const schemas = require('./my/mongoose/schemas');
 
 await server.register({
@@ -42,7 +42,7 @@ For ease of use you can have a folder with all your schema definitions along an 
 ```
 
 ```javascript
-# Post schema (post.js)
+// Post schema (post.js)
 'use strict';
 
 const Schema = require('mongoose').Schema;
@@ -63,8 +63,10 @@ const Post = new Schema({
 });
 
 module.exports = Post;
+```
 
-# User schema (user.js)
+```javascript
+// User schema (user.js)
 'use strict';
 
 const Schema = require('mongoose').Schema;
@@ -89,8 +91,10 @@ const User = new Schema({
 });
 
 module.exports = User;
+```
 
-# Exporter (index.js)
+```javascript
+// Exporter (index.js)
 'use strict';
 
 const Post = require('./post');
