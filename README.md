@@ -3,7 +3,8 @@ Mongoose plugin for [HapiJS](https://hapijs.com/) (v17+)
 
 + [Installation](#installation)
 + [Register as Hapi Plugin](#register-as-hapi-plugin)
-+ 
++ [Server Decorations](#server-decorations)
++ [Plugin Methods Exposed](#plugin-methods-exposed)
 
 ## Installation
 
