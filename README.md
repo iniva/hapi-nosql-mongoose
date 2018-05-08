@@ -1,7 +1,11 @@
 # hapi-nosql-mongoose
 Mongoose plugin for [HapiJS](https://hapijs.com/) (v17+)
 
-## Install
++ [Installation](#installation)
++ [Register as Hapi Plugin](#register-as-hapi-plugin)
++ 
+
+## Installation
 
 ```bash
 # npm
@@ -107,3 +111,45 @@ const schemas = {
 
 module.exports = schemas
 ```
+
+## Server Decorations
+This plugin decorates the **server** object, adding a method called `mongoose:connector` that returns the full [Connector](lib/connector.js) object.
+
+Use the **Connector** object to get your models in your controllers like this:
+```javascript
+server.route({
+    method: 'GET',
+    path: '/posts',
+    handler: async (request, h) => {
+
+        const Post = request.server['mongoose:connector'].getModel('Post');
+        // More code below
+    }
+});
+```
+
+## Plugin Methods Exposed
++ **connection**: This gives you access to the Mongoose [Connection](http://mongoosejs.com/docs/api.html#Connection) Object.
+  ```javascript
+  server.route({
+    method: 'GET',
+    path: '/posts',
+    handler: async (request, h) => {
+
+        const MongooseConnection = request.server.plugins['hapi-nosql-mongoose'].connection;
+        // More code below
+    }
+  });
+  ```
++ **mongoose**: This gives you access to the [Mongoose](http://mongoosejs.com/docs/api.html#mongoose_Mongoose) Object.
+  ```javascript
+  server.route({
+    method: 'GET',
+    path: '/posts',
+    handler: async (request, h) => {
+
+        const Mongoose = request.server.plugins['hapi-nosql-mongoose'].mongoose;
+        // More code below
+    }
+  });
+  ```
