@@ -18,9 +18,10 @@
     "mongoose"
   ],
   "scripts": {
-    "test": "lab -r console -t 95 -a code -L",
-    "test-cov-html": "lab -r html -o coverage.html -a code -L",
-    "lint": "eslint lib"
+    "lint": "eslint lib",
+    "test": "lab -r console -c -a code -L",
+    "coverage": "lab -r html -o coverage.html -a code -L",
+    "coveralls": "lab -r lcov | ./node_modules/.bin/coveralls"
   },
   "dependencies": {
     "hoek": "5.x.x",
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "code": "5.x.x",
+    "coveralls": "3.x.x",
     "eslint": "4.19.x",
     "eslint-config-hapi": "11.x.x",
     "eslint-plugin-hapi": "4.x.x",

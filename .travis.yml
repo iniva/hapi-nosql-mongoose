@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "lts/*"
+sudo: false
+before_install:
+  - npm install -g npm
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.7.0
+  - export PATH=$HOME/.yarn/bin:$PATH
+cache:
+  yarn: true
+  directories:
+    - "node_modules"
+install:
+  - yarn install
+services:
+  - mongodb
+after_script: "yarn coveralls"
