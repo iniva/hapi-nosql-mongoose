@@ -1,3 +1,4 @@
+[![Coverage Status](https://coveralls.io/repos/github/iniva/hapi-nosql-mongoose/badge.svg?branch=master)](https://coveralls.io/github/iniva/hapi-nosql-mongoose?branch=master)
 [![Build Status](https://travis-ci.org/iniva/hapi-nosql-mongoose.svg?branch=master)](https://travis-ci.org/iniva/hapi-nosql-mongoose)
 
 # hapi-nosql-mongoose
