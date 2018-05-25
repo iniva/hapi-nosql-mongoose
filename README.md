@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/iniva/hapi-nosql-mongoose.svg?branch=master)](https://travis-ci.org/iniva/hapi-nosql-mongoose)
+
 # hapi-nosql-mongoose
 Mongoose plugin for [HapiJS](https://hapijs.com/) (v17+)
 
