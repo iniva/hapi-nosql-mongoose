@@ -12,4 +12,6 @@ cache:
     - "node_modules"
 install:
   - yarn install
+services:
+  - mongodb
 after_script: "yarn coveralls"
