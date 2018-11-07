@@ -28,8 +28,8 @@
     "mongoose": "5.x.x"
   },
   "devDependencies": {
-    "code": "5.x.x",
-    "coveralls": "3.x.x",
+    "code": "5.2.3",
+    "coveralls": "3.0.2",
     "eslint": "4.19.x",
     "eslint-config-hapi": "11.x.x",
     "eslint-plugin-hapi": "4.x.x",
