@@ -30,7 +30,7 @@
   "devDependencies": {
     "code": "5.2.3",
     "coveralls": "3.0.2",
-    "eslint": "4.19.x",
+    "eslint": "5.8.0",
     "eslint-config-hapi": "11.x.x",
     "eslint-plugin-hapi": "4.x.x",
     "lab": "17.3.0"
