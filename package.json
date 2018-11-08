@@ -33,7 +33,7 @@
     "eslint": "4.19.x",
     "eslint-config-hapi": "11.x.x",
     "eslint-plugin-hapi": "4.x.x",
-    "lab": "15.x.x"
+    "lab": "17.3.0"
   },
   "engines": {
     "node": ">=8.10.0"
