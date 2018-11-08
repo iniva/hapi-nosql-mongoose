@@ -1,6 +1,7 @@
 'use strict';
 
 const { expect } = require('code');
+
 const { describe, it } = exports.lab = require('lab').script();
 const Connector = require('../lib/connector');
 const Post = require('./schemas/post');
