@@ -18,7 +18,7 @@
     "mongoose"
   ],
   "scripts": {
-    "lint": "eslint lib",
+    "lint": "eslint lib test",
     "test": "lab -r console -c -a code -L",
     "coverage": "lab -r html -o coverage.html -a code -L",
     "coveralls": "lab -r lcov | ./node_modules/.bin/coveralls"
