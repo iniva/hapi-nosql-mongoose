@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "hoek": "6.0.2",
-    "mongoose": "5.x.x"
+    "mongoose": "5.3.10"
   },
   "devDependencies": {
     "code": "5.2.3",
