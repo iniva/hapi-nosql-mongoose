@@ -4,9 +4,8 @@
     "node": true,
     "es6": true
   },
-  "globals": {},
+  "extends": ["hapi"],
   "parserOptions": {
     "ecmaVersion": 8
-  },
-  "extends": ["eslint-config-hapi"]
+  }
 }
