@@ -1,6 +1,6 @@
 {
   "name": "hapi-nosql-mongoose",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Mongoose implementation for HapiJS",
   "main": "lib/index.js",
   "author": "Tony Di Benedetto <tonyblast@gmail.com>",
