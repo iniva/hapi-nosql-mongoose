@@ -30,7 +30,7 @@ describe('Mongoose Connector', () => {
         expect(fn).to.throw(Error);
     });
 
-    it('returns a Connector instance', () => {
+    it('should returns a Connector instance', () => {
 
         const connector = new Connector({
             uri: 'mongodb://localhost:27017/test'
@@ -39,7 +39,7 @@ describe('Mongoose Connector', () => {
         expect(connector).to.be.instanceof(Connector);
     });
 
-    it('returns a Connector instance with a logger', () => {
+    it('should returns a Connector instance with a logger', () => {
 
         const connector = new Connector({
             uri: 'mongodb://localhost:27017/test',
@@ -52,7 +52,7 @@ describe('Mongoose Connector', () => {
         expect(connector).to.be.instanceof(Connector);
     });
 
-    it('returns a message on Connector "ready" event', async () => {
+    it('should returns a message on Connector "ready" event', async () => {
 
         const connector = new Connector({
             uri: 'mongodb://localhost:27017/test'
