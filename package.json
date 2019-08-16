@@ -26,14 +26,14 @@
     "coveralls": "lab -r lcov | ./node_modules/.bin/coveralls"
   },
   "dependencies": {
-    "@hapi/hoek": "^8.0.2",
-    "mongoose": "5.6.4"
+    "@hapi/hoek": "^8.2.1",
+    "mongoose": "5.6.9"
   },
   "devDependencies": {
     "@hapi/code": "^5.3.1",
     "@hapi/lab": "^19.1.0",
-    "coveralls": "^3.0.5",
-    "eslint": "^6.0.1"
+    "coveralls": "^3.0.6",
+    "eslint": "^6.1.0"
   },
   "engines": {
     "node": ">=8.10.0"
