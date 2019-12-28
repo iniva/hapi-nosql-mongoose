@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@hapi/hoek": "^8.2.1",
-    "mongoose": "5.6.9"
+    "mongoose": "5.7.5"
   },
   "devDependencies": {
     "@hapi/code": "^5.3.1",
