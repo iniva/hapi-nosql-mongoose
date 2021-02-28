@@ -1,13 +1,15 @@
-[![Coverage Status](https://coveralls.io/repos/github/iniva/hapi-nosql-mongoose/badge.svg?branch=master)](https://coveralls.io/github/iniva/hapi-nosql-mongoose?branch=master)
-[![Build Status](https://travis-ci.org/iniva/hapi-nosql-mongoose.svg?branch=master)](https://travis-ci.org/iniva/hapi-nosql-mongoose)
+> :warning: This won't be updated anymore
 
 # hapi-nosql-mongoose
 Mongoose plugin for [HapiJS](https://hapijs.com/) (v17+)
 
-+ [Installation](#installation)
-+ [Register as Hapi Plugin](#register-as-hapi-plugin)
-+ [Server Decorations](#server-decorations)
-+ [Plugin Methods Exposed](#plugin-methods-exposed)
+- [hapi-nosql-mongoose](#hapi-nosql-mongoose)
+  - [Installation](#installation)
+  - [Register as Hapi Plugin](#register-as-hapi-plugin)
+      - [Options](#options)
+      - [Schema Definitions](#schema-definitions)
+  - [Server Decorations](#server-decorations)
+  - [Plugin Methods Exposed](#plugin-methods-exposed)
 
 ## Installation
 
